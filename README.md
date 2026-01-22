@@ -106,10 +106,15 @@ With Luma-CLI:
 | Feature | Description |
 |:--------|:------------|
 | 🎤 **Voice Input** | Speak in 9+ Indic languages (Hindi, Tamil, Telugu, etc.) |
-| 🤖 **AWS AI** | Powered by Amazon Bedrock, Transcribe, Translate |
+| 🔊 **Voice Output** | Listen to code explanations (AWS Polly TTS) |
+| 🤖 **AWS AI** | Powered by Amazon Bedrock, Transcribe, Translate, Polly, Comprehend, Rekognition |
 | 💬 **Code Generation** | Generate code from natural language |
-| 🔍 **Code Analysis** | AI-powered bug detection & security scanning |
-| 🌐 **Multi-Language** | Full UI support for Indic languages |
+| 🔍 **Code Analysis** | AI-powered bug detection, security scanning & sentiment analysis |
+| 📸 **OCR** | Extract code from screenshots and images |
+| 👥 **Real-Time Collaboration** | Multi-user coding sessions with AI assistance |
+| 📚 **AI Learning Path** | Personalized 30-day coding curriculum |
+| 🎯 **Daily Challenges** | Coding challenges in your native language |
+| 🌐 **Multi-Language** | Full UI support for 11+ Indic languages |
 | 📡 **Remote Access** | Connect via local WiFi or global ngrok tunnel |
 | 🔄 **Real-Time Sync** | Live updates with 1-second polling |
 | 💬 **Remote Control** | Send messages, stop generations, switch modes |
@@ -125,10 +130,11 @@ With Luma-CLI:
 
 ## 🤖 AWS AI Features (New!)
 
-Luma-CLI now includes powerful AWS AI capabilities for Indian developers:
+Nano IDE now includes powerful AWS AI capabilities for Indian developers:
 
-### Voice Input 🎤
-Speak in your native language and get transcribed text:
+### Voice Input & Output 🎤🔊
+**Input**: Speak in your native language and get transcribed text
+**Output**: Listen to code explanations via text-to-speech
 - Hindi (हिंदी)
 - Tamil (தமிழ்)
 - Telugu (తెలుగు)
@@ -146,6 +152,31 @@ Powered by Amazon Bedrock (Claude 3.5 Sonnet):
 - **Security Scanning**: Find vulnerabilities
 - **Performance Tips**: Optimization suggestions
 - **Comment Translation**: Translate to Indic languages
+- **Sentiment Analysis**: Analyze code review tone
+
+### OCR for Code 📸
+Extract code from screenshots using AWS Rekognition:
+- Convert screenshots to editable code
+- 95%+ accuracy
+- Auto-detect programming language
+- Analyze architecture diagrams
+
+### Real-Time Collaboration 👥
+Multi-user coding sessions:
+- Live code synchronization
+- AI-powered suggestions
+- Up to 10 participants
+- Host controls
+- Session management
+
+### AI Learning Path 📚
+Personalized coding curriculum:
+- Skill assessment
+- 30-day learning plan
+- Daily coding challenges
+- Progress tracking
+- Badges and achievements
+- Streak tracking
 
 ### Multi-Language Support 🌐
 Full UI translation using AWS Translate:
@@ -153,7 +184,7 @@ Full UI translation using AWS Translate:
 - Support for 11+ Indic languages
 - Real-time translation
 
-**See [AWS_AI_BHARAT.md](AWS_AI_BHARAT.md) for detailed documentation.**
+**See [ADVANCED_FEATURES.md](ADVANCED_FEATURES.md) for detailed documentation.**
 
 ---
 
