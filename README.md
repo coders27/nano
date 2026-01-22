@@ -916,8 +916,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 **GNU General Public License v3.0**
 
 ```
-Luma-CLI: Remote monitoring and control for Antigravity IDE
-Copyright (C) 2025 Mithun Gowda B
+Luma-CLI: AI-Powered Remote IDE Controller for Bharat
+Copyright (C) 2025 Coders27 Team
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

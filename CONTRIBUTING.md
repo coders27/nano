@@ -114,6 +114,6 @@ curl -k https://localhost:3000/health
 - Add JSDoc comments for functions
 - Keep functions focused and small
 
-## Author
+## Team
 
-**Mithun Gowda B** ([@mithun50](https://github.com/mithun50))
+**Coders27 Team** - AWS AI for Bharat Hackathon 2025 🇮🇳
