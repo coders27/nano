@@ -30,7 +30,7 @@
         "qrcode-terminal": "^0.12.0",
         "ws": "^8.18.0"
     },
-    "author": "Mithun Gowda B <muthungowda.b7411@gmail.com>",
+    "author": "Coders27 Team",
     "license": "GPL-3.0-only",
     "engines": {
         "node": ">=18.0.0"
@@ -41,14 +41,22 @@
         "remote",
         "cli",
         "monitoring",
-        "luma"
+        "luma",
+        "aws",
+        "ai",
+        "bharat",
+        "indic-languages",
+        "voice-input",
+        "bedrock",
+        "transcribe",
+        "translate"
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mithun50/luma-cli.git"
+        "url": "git+https://github.com/coders27/luma-cli2.git"
     },
     "bugs": {
-        "url": "https://github.com/mithun50/luma-cli/issues"
+        "url": "https://github.com/coders27/luma-cli2/issues"
     },
-    "homepage": "https://github.com/mithun50/luma-cli#readme"
+    "homepage": "https://github.com/coders27/luma-cli2#readme"
 }
