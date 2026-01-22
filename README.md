@@ -10,14 +10,14 @@
 ```
 
 <p align="center">
-  <a href="https://github.com/coders27/luma-cli2/actions/workflows/ci.yml">
-    <img src="https://github.com/coders27/luma-cli2/actions/workflows/ci.yml/badge.svg" alt="CI">
+  <a href="https://github.com/coders27/nano/actions/workflows/ci.yml">
+    <img src="https://github.com/coders27/nano/actions/workflows/ci.yml/badge.svg" alt="CI">
   </a>
-  <a href="https://github.com/coders27/luma-cli2/actions/workflows/codeql.yml">
-    <img src="https://github.com/coders27/luma-cli2/actions/workflows/codeql.yml/badge.svg" alt="CodeQL">
+  <a href="https://github.com/coders27/nano/actions/workflows/codeql.yml">
+    <img src="https://github.com/coders27/nano/actions/workflows/codeql.yml/badge.svg" alt="CodeQL">
   </a>
-  <a href="https://github.com/coders27/luma-cli2/releases">
-    <img src="https://img.shields.io/github/v/release/coders27/luma-cli2?include_prereleases&style=flat" alt="Release">
+  <a href="https://github.com/coders27/nano/releases">
+    <img src="https://img.shields.io/github/v/release/coders27/nano?include_prereleases&style=flat" alt="Release">
   </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3">
@@ -34,23 +34,23 @@
   <a href="https://reactnative.dev">
     <img src="https://img.shields.io/badge/React%20Native-0.76-61DAFB?logo=react&logoColor=black" alt="React Native">
   </a>
-  <a href="https://github.com/coders27/luma-cli2/stargazers">
-    <img src="https://img.shields.io/github/stars/coders27/luma-cli2?style=flat&logo=github" alt="Stars">
+  <a href="https://github.com/coders27/nano/stargazers">
+    <img src="https://img.shields.io/github/stars/coders27/nano?style=flat&logo=github" alt="Stars">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/coders27/luma-cli2/issues">
-    <img src="https://img.shields.io/github/issues/coders27/luma-cli2?style=flat" alt="Issues">
+  <a href="https://github.com/coders27/nano/issues">
+    <img src="https://img.shields.io/github/issues/coders27/nano?style=flat" alt="Issues">
   </a>
-  <a href="https://github.com/coders27/luma-cli2/pulls">
-    <img src="https://img.shields.io/github/issues-pr/coders27/luma-cli2?style=flat" alt="Pull Requests">
+  <a href="https://github.com/coders27/nano/pulls">
+    <img src="https://img.shields.io/github/issues-pr/coders27/nano?style=flat" alt="Pull Requests">
   </a>
-  <a href="https://github.com/coders27/luma-cli2/commits/main">
-    <img src="https://img.shields.io/github/last-commit/coders27/luma-cli2?style=flat" alt="Last Commit">
+  <a href="https://github.com/coders27/nano/commits/main">
+    <img src="https://img.shields.io/github/last-commit/coders27/nano?style=flat" alt="Last Commit">
   </a>
-  <a href="https://github.com/coders27/luma-cli2">
-    <img src="https://img.shields.io/github/repo-size/coders27/luma-cli2?style=flat" alt="Repo Size">
+  <a href="https://github.com/coders27/nano">
+    <img src="https://img.shields.io/github/repo-size/coders27/nano?style=flat" alt="Repo Size">
   </a>
 </p>
 
@@ -202,8 +202,8 @@ Full UI translation using AWS Translate:
 
 ```bash
 # Clone repository
-git clone https://github.com/coders27/luma-cli2.git
-cd luma-cli2
+git clone https://github.com/coders27/nano.git
+cd nano
 
 # Install backend dependencies
 npm install
@@ -933,6 +933,6 @@ See [LICENSE](LICENSE) for full text.
 
 **Made with ❤️ by Coders27 Team for AWS AI for Bharat Hackathon 2025** 🇮🇳
 
-[Report Bug](https://github.com/coders27/luma-cli2/issues) · [Request Feature](https://github.com/coders27/luma-cli2/issues)
+[Report Bug](https://github.com/coders27/nano/issues) · [Request Feature](https://github.com/coders27/nano/issues)
 
 </div>

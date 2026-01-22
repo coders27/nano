@@ -53,10 +53,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/coders27/luma-cli2.git"
+        "url": "git+https://github.com/coders27/nano.git"
     },
     "bugs": {
-        "url": "https://github.com/coders27/luma-cli2/issues"
+        "url": "https://github.com/coders27/nano/issues"
     },
-    "homepage": "https://github.com/coders27/luma-cli2#readme"
+    "homepage": "https://github.com/coders27/nano#readme"
 }
