@@ -27,7 +27,7 @@ jobs:
         run: npm install
 
       - name: Verify CLI
-        run: node bin/luma-cli.js --version
+        run: node bin/nano-cli.js --version
 
       - name: Generate changelog
         id: changelog
