@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-Luma-CLI has been enhanced with AWS AI services to make it a powerful tool for Indian developers, supporting Indic languages, voice input, and advanced AI capabilities.
+Nano CLI has been enhanced with AWS AI services to make it a powerful tool for Indian developers, supporting Indic languages, voice input, and advanced AI capabilities.
 
 ## ✨ New Features
 
@@ -139,7 +139,7 @@ export AWS_REGION=ap-south-1
 
 ```bash
 # Create bucket for audio files
-aws s3 mb s3://luma-cli-audio --region ap-south-1
+aws s3 mb s3://Nano CLI-audio --region ap-south-1
 ```
 
 ### Step 3: Enable Bedrock Models
@@ -160,7 +160,7 @@ Edit `.env`:
 AWS_ACCESS_KEY_ID=your_access_key_here
 AWS_SECRET_ACCESS_KEY=your_secret_key_here
 AWS_REGION=ap-south-1
-AWS_S3_BUCKET=luma-cli-audio
+AWS_S3_BUCKET=Nano CLI-audio
 ```
 
 ### Step 5: Install Dependencies
@@ -371,8 +371,8 @@ We welcome contributions! Areas to enhance:
 ## 📞 Support
 
 For issues or questions:
-- GitHub Issues: [github.com/coders27/luma-cli2/issues](https://github.com/coders27/luma-cli2/issues)
-- Email: support@luma-cli.dev
+- GitHub Issues: [github.com/coders27/Nano CLI2/issues](https://github.com/coders27/Nano CLI2/issues)
+- Email: support@Nano CLI.dev
 
 ---
 

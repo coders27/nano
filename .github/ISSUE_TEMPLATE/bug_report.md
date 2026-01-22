@@ -24,7 +24,7 @@ If applicable, add screenshots to help explain your problem.
 ## Environment
 - **OS:** [e.g., macOS 14, Ubuntu 22.04, Windows 11]
 - **Node.js Version:** [e.g., 20.10.0]
-- **Luma-CLI Version:** [e.g., 1.0.0]
+- **Nano CLI Version:** [e.g., 1.0.0]
 - **Mobile Device:** [e.g., iPhone 15, Pixel 8]
 - **Expo Go Version:** [e.g., 2.30.0]
 

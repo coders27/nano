@@ -1,6 +1,6 @@
-# Contributing to Luma-CLI
+# Contributing to Nano CLI
 
-Thank you for considering contributing to Luma-CLI! Your contributions help make remote AI development better for everyone.
+Thank you for considering contributing to Nano CLI! Your contributions help make remote AI development better for everyone.
 
 ## How to Contribute
 
@@ -22,8 +22,8 @@ Thank you for considering contributing to Luma-CLI! Your contributions help make
 1. **Fork** the repository
 2. **Clone** your fork:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/luma-cli.git
-   cd luma-cli
+   git clone https://github.com/YOUR_USERNAME/Nano CLI.git
+   cd Nano CLI
    ```
 3. **Create a branch**:
    ```bash
@@ -65,7 +65,7 @@ npm install
 antigravity . --remote-debugging-port=9000
 
 # Run the server
-node bin/luma-cli.js start --local
+node bin/Nano CLI.js start --local
 ```
 
 ### Mobile App

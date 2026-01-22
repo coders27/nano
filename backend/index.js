@@ -1,5 +1,5 @@
 /**
- * Luma-CLI Backend
+ * Nano CLI Backend
  * Main entry point for programmatic usage
  */
 

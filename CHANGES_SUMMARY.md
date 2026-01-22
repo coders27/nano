@@ -2,7 +2,7 @@
 
 ## Overview
 
-Luma-CLI has been upgraded with powerful AWS AI features to make it a winning solution for the AWS AI for Bharat Hackathon 2025.
+Nano CLI has been upgraded with powerful AWS AI features to make it a winning solution for the AWS AI for Bharat Hackathon 2025.
 
 ## 📦 New Files Created
 
@@ -90,7 +90,7 @@ Luma-CLI has been upgraded with powerful AWS AI features to make it a winning so
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 AWS_REGION=ap-south-1
-AWS_S3_BUCKET=luma-cli-audio
+AWS_S3_BUCKET=Nano CLI-audio
 BEDROCK_MODEL_ID=anthropic.claude-3-5-sonnet-20241022-v2:0
 BEDROCK_MAX_TOKENS=4096
 BEDROCK_TEMPERATURE=0.7
@@ -238,10 +238,10 @@ All features have mobile-friendly APIs:
 1. **Authenticate** (choose one):
    ```bash
    # Option 1: Personal Access Token
-   git push https://YOUR_TOKEN@github.com/coders27/luma-cli2.git main
+   git push https://YOUR_TOKEN@github.com/coders27/Nano CLI2.git main
    
    # Option 2: SSH
-   git remote set-url origin git@github.com:coders27/luma-cli2.git
+   git remote set-url origin git@github.com:coders27/Nano CLI2.git
    git push origin main
    
    # Option 3: GitHub CLI
@@ -267,7 +267,7 @@ All features have mobile-friendly APIs:
 
 ## 🎉 Summary
 
-Luma-CLI is now a comprehensive AWS AI-powered solution for Indian developers with:
+Nano CLI is now a comprehensive AWS AI-powered solution for Indian developers with:
 - ✅ Voice input in 9 Indic languages
 - ✅ AI code generation and analysis
 - ✅ Multi-language translation

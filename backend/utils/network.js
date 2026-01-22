@@ -1,5 +1,5 @@
 /**
- * Network utilities for Luma-CLI
+ * Network utilities for Nano CLI
  */
 
 import os from 'os';

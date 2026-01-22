@@ -9,14 +9,14 @@ The push failed because you need to authenticate with GitHub. Here are the optio
 1. **Generate a Personal Access Token**:
    - Go to: https://github.com/settings/tokens
    - Click "Generate new token" → "Generate new token (classic)"
-   - Give it a name: "Luma CLI 2"
+   - Give it a name: "Nano CLI 2"
    - Select scopes: `repo` (full control of private repositories)
    - Click "Generate token"
    - **Copy the token immediately** (you won't see it again)
 
 2. **Push with Token**:
    ```bash
-   git push https://YOUR_TOKEN@github.com/coders27/luma-cli2.git main
+   git push https://YOUR_TOKEN@github.com/coders27/Nano CLI2.git main
    ```
 
 ### Option 2: Using SSH
@@ -37,7 +37,7 @@ The push failed because you need to authenticate with GitHub. Here are the optio
 
 3. **Change Remote to SSH**:
    ```bash
-   git remote set-url origin git@github.com:coders27/luma-cli2.git
+   git remote set-url origin git@github.com:coders27/Nano CLI2.git
    git push origin main
    ```
 

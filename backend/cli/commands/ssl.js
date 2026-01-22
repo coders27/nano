@@ -80,7 +80,7 @@ function showSSLStatus() {
         console.log(chalk.cyan('\n   HTTPS will be used when server starts'));
     } else {
         console.log(chalk.yellow(`\n\u26a0\ufe0f  ${status.message}`));
-        console.log(chalk.gray('\n   Run `luma-cli ssl generate` to create certificates'));
+        console.log(chalk.gray('\n   Run `nano-cli ssl generate` to create certificates'));
     }
 
     console.log(chalk.gray('\n' + '='.repeat(40)));

@@ -1,10 +1,10 @@
 {
-    "name": "luma-cli",
+    "name": "nano-cli",
     "version": "1.0.0",
     "type": "module",
-    "description": "Remote monitoring and control for Antigravity IDE",
+    "description": "AI-Powered Remote IDE Controller for Bharat",
     "bin": {
-        "luma-cli": "./bin/luma-cli.js"
+        "nano-cli": "./bin/nano-cli.js"
     },
     "main": "backend/index.js",
     "scripts": {
@@ -46,7 +46,8 @@
         "remote",
         "cli",
         "monitoring",
-        "luma",
+        "nano",
+        "nano-cli",
         "aws",
         "ai",
         "bharat",

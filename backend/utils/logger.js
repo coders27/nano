@@ -1,5 +1,5 @@
 /**
- * Structured logging for Luma-CLI
+ * Structured logging for Nano CLI
  */
 
 import chalk from 'chalk';

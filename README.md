@@ -1,12 +1,12 @@
-# Luma-CLI
+# Nano CLI
 
 ```
-██╗     ██╗   ██╗███╗   ███╗ █████╗        ██████╗██╗     ██╗
-██║     ██║   ██║████╗ ████║██╔══██╗      ██╔════╝██║     ██║
-██║     ██║   ██║██╔████╔██║███████║█████╗██║     ██║     ██║
-██║     ██║   ██║██║╚██╔╝██║██╔══██║╚════╝██║     ██║     ██║
-███████╗╚██████╔╝██║ ╚═╝ ██║██║  ██║      ╚██████╗███████╗██║
-╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝       ╚═════╝╚══════╝╚═╝
+███╗   ██╗ █████╗ ███╗   ██╗ ██████╗      ██████╗██╗     ██╗
+████╗  ██║██╔══██╗████╗  ██║██╔═══██╗    ██╔════╝██║     ██║
+██╔██╗ ██║███████║██╔██╗ ██║██║   ██║    ██║     ██║     ██║
+██║╚██╗██║██╔══██║██║╚██╗██║██║   ██║    ██║     ██║     ██║
+██║ ╚████║██║  ██║██║ ╚████║╚██████╔╝    ╚██████╗███████╗██║
+╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝      ╚═════╝╚══════╝╚═╝
 ```
 
 <p align="center">
@@ -58,11 +58,11 @@
 
 ---
 
-## Why Luma-CLI?
+## Why Nano CLI?
 
 Ever started a long AI generation and had to stare at your screen waiting? Want to code in your native language? Need AI assistance that understands Indian developers?
 
-With Luma-CLI:
+With Nano CLI:
 
 ```
 🎤 Speak in Hindi, Tamil, Telugu - get code
@@ -201,7 +201,7 @@ Full UI translation using AWS Translate:
                              │ WebSocket / HTTP
                              ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                       LUMA SERVER                           │
+│                       Nano Server                           │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐  │
 │  │ Express     │  │ WebSocket   │  │ Polling Loop        │  │
 │  │ REST API    │  │ Events      │  │ (Generation Detect) │  │
@@ -249,7 +249,7 @@ npm link
 ### Verify
 
 ```bash
-luma-cli --version
+Nano CLI --version
 # Output: 1.0.0
 ```
 
@@ -260,12 +260,12 @@ luma-cli --version
 ### Option A: One Command (Recommended)
 
 ```bash
-luma-cli start --auto-launch
+Nano CLI start --auto-launch
 ```
 
 This automatically:
 1. Launches Antigravity IDE with debug mode enabled
-2. Starts the Luma server
+2. Starts the Nano Server
 3. Displays QR code for mobile connection
 
 ### Option B: Manual Setup
@@ -276,10 +276,10 @@ This automatically:
 antigravity . --remote-debugging-port=9000
 ```
 
-**Step 2:** Launch Luma Server
+**Step 2:** Launch Nano Server
 
 ```bash
-luma-cli start
+Nano CLI start
 ```
 
 ---
@@ -287,11 +287,11 @@ luma-cli start
 You'll see:
 ```
 ╔═══════════════════════════════════════╗
-║           LUMA-CLI v1.0.0             ║
+║           Nano CLI v1.0.0             ║
 ╚═══════════════════════════════════════╝
 
 ✔ Antigravity launched on debug port 9000
-🚀 Starting Luma server in LOCAL mode...
+🚀 Starting Nano Server in LOCAL mode...
 ✅ Found Antigravity on port 9000
 ✅ Connected! Found 3 execution contexts
 
@@ -321,31 +321,31 @@ Scan QR code with Expo Go app → Enter server URL → Start chatting!
 
 ## 💻 CLI Commands
 
-### `luma-cli start`
+### `Nano CLI start`
 
-Start the Luma server.
+Start the Nano Server.
 
 ```bash
 # Auto-launch Antigravity + start server (recommended)
-luma-cli start --auto-launch
+Nano CLI start --auto-launch
 
 # Auto-launch with specific project directory
-luma-cli start --auto-launch --directory ~/my-project
+Nano CLI start --auto-launch --directory ~/my-project
 
 # Interactive mode (choose local/web)
-luma-cli start
+Nano CLI start
 
 # Local network mode
-luma-cli start --local
+Nano CLI start --local
 
 # Global access via ngrok
-luma-cli start --web
+Nano CLI start --web
 
 # Custom port
-luma-cli start --port 8080
+Nano CLI start --port 8080
 
 # Combined: auto-launch + web mode + custom port
-luma-cli start -a -w -p 8080
+Nano CLI start -a -w -p 8080
 ```
 
 | Option | Short | Description |
@@ -364,12 +364,12 @@ To use global access mode, you need a free ngrok auth token:
 
 2. **Configure:**
    ```bash
-   luma-cli config set ngrok-token YOUR_NGROK_TOKEN
+   Nano CLI config set ngrok-token YOUR_NGROK_TOKEN
    ```
 
 3. **Start with web mode:**
    ```bash
-   luma-cli start --web
+   Nano CLI start --web
    ```
 
 > **Note:** Without an auth token, tunnels expire after ~2 hours. With a token, they persist longer.
@@ -386,22 +386,22 @@ To use global access mode, you need a free ngrok auth token:
 
 ---
 
-### `luma-cli config`
+### `Nano CLI config`
 
 Manage configuration.
 
 ```bash
 # Show current config
-luma-cli config show
+Nano CLI config show
 
 # Set password
-luma-cli config set password mySecretPass
+Nano CLI config set password mySecretPass
 
 # Set ngrok token
-luma-cli config set ngrok-token 2abc123xyz...
+Nano CLI config set ngrok-token 2abc123xyz...
 
 # Reset to defaults
-luma-cli config reset
+Nano CLI config reset
 ```
 
 | Action | Description |
@@ -420,16 +420,16 @@ luma-cli config reset
 
 ---
 
-### `luma-cli ssl`
+### `Nano CLI ssl`
 
 Manage SSL certificates.
 
 ```bash
 # Check SSL status
-luma-cli ssl status
+Nano CLI ssl status
 
 # Generate new certificates
-luma-cli ssl generate
+Nano CLI ssl generate
 ```
 
 | Action | Description |
@@ -439,12 +439,12 @@ luma-cli ssl generate
 
 ---
 
-### `luma-cli info`
+### `Nano CLI info`
 
 Display connection info and QR codes.
 
 ```bash
-luma-cli info
+Nano CLI info
 ```
 
 Shows:
@@ -475,7 +475,7 @@ npx expo start
 
 **Connection Flow:**
 ```
-1. Open Luma app on phone
+1. Open Nano app on phone
 2. Scan QR code OR enter server URL manually
 3. Connected! Start chatting with AI
 ```
@@ -507,13 +507,13 @@ npx expo start
 ```
 ┌─────────────────────────────────────────────────────────┐
 │  1. USER SENDS MESSAGE                                  │
-│     📱 Mobile App → 🖥️ Luma Server → 🤖 Antigravity    │
+│     📱 Mobile App → 🖥️ Nano Server → 🤖 Antigravity    │
 └─────────────────────────────────────────────────────────┘
                            ▼
 ┌─────────────────────────────────────────────────────────┐
 │  2. GENERATION STARTS                                   │
 │     🤖 Antigravity starts generating                    │
-│     🔍 Luma detects via CDP (stop button appears)       │
+│     🔍 Nano detects via CDP (stop button appears)       │
 │     📡 WebSocket: { type: "generation_started" }        │
 └─────────────────────────────────────────────────────────┘
                            ▼
@@ -526,7 +526,7 @@ npx expo start
 ┌─────────────────────────────────────────────────────────┐
 │  4. GENERATION COMPLETES                                │
 │     🤖 Antigravity finishes response                    │
-│     🔍 Luma detects (stop button disappears)            │
+│     🔍 Nano detects (stop button disappears)            │
 │     📡 WebSocket: { type: "generation_complete" }       │
 └─────────────────────────────────────────────────────────┘
                            ▼
@@ -547,7 +547,7 @@ npx expo start
 
 ### Detection Methods
 
-Luma uses multiple methods to detect generation state:
+Nano uses multiple methods to detect generation state:
 
 | Method | How It Works | Reliability |
 |:-------|:-------------|:------------|
@@ -748,7 +748,7 @@ NGROK_AUTHTOKEN=your_ngrok_token
 
 1. Use auto-launch (recommended):
    ```bash
-   luma-cli start --auto-launch
+   Nano CLI start --auto-launch
    ```
 
 2. Or manually enable debug mode:
@@ -776,12 +776,12 @@ NGROK_AUTHTOKEN=your_ngrok_token
 
 2. **Set the token:**
    ```bash
-   luma-cli config set ngrok-token YOUR_TOKEN
+   Nano CLI config set ngrok-token YOUR_TOKEN
    ```
 
 3. **Verify token is set:**
    ```bash
-   luma-cli config show
+   Nano CLI config show
    ```
 
 4. **Check internet connection**
@@ -793,7 +793,7 @@ NGROK_AUTHTOKEN=your_ngrok_token
 
 6. **Alternative: Use local mode** (no ngrok needed):
    ```bash
-   luma-cli start --local
+   Nano CLI start --local
    ```
 </details>
 
@@ -802,7 +802,7 @@ NGROK_AUTHTOKEN=your_ngrok_token
 
 1. Regenerate certificates:
    ```bash
-   luma-cli ssl generate
+   Nano CLI ssl generate
    ```
 
 2. On mobile, accept self-signed cert warning
@@ -829,9 +829,9 @@ NGROK_AUTHTOKEN=your_ngrok_token
 ## 📁 Project Structure
 
 ```
-luma-cli/
+Nano CLI/
 ├── bin/
-│   └── luma-cli.js           # CLI entry point
+│   └── Nano CLI.js           # CLI entry point
 │
 ├── backend/
 │   ├── cdp/                  # Chrome DevTools Protocol
@@ -947,7 +947,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 **GNU General Public License v3.0**
 
 ```
-Luma-CLI: AI-Powered Remote IDE Controller for Bharat
+Nano CLI: AI-Powered Remote IDE Controller for Bharat
 Copyright (C) 2025 Coders27 Team
 
 This program is free software: you can redistribute it and/or modify

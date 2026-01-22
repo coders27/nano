@@ -1,5 +1,5 @@
 /**
- * Configuration loader for Luma-CLI
+ * Configuration loader for Nano CLI
  */
 
 import 'dotenv/config';

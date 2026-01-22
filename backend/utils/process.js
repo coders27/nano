@@ -1,5 +1,5 @@
 /**
- * Process utilities for Luma-CLI
+ * Process utilities for Nano CLI
  */
 
 import { execSync } from 'child_process';

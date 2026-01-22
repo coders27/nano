@@ -1,5 +1,5 @@
 /**
- * Passcode utilities for Luma-CLI
+ * Passcode utilities for Nano CLI
  */
 
 /**

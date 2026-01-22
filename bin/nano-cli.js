@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Luma-CLI - Remote monitoring and control for Antigravity IDE
+ * Nano CLI - AI-Powered Remote IDE Controller for Bharat
  * Main CLI entry point
  */
 

@@ -2,7 +2,7 @@
 
 ## 📋 Executive Summary
 
-**Project**: Luma-CLI - AI-Powered Remote IDE Controller for Bharat
+**Project**: Nano CLI - AI-Powered Remote IDE Controller for Bharat
 
 **Tagline**: "Code in Your Language, From Anywhere in India"
 
@@ -26,7 +26,7 @@
 
 ### Slide 2: Our Solution (30 seconds)
 
-**Title**: "Luma-CLI: AI Coding for Every Indian"
+**Title**: "Nano CLI: AI Coding for Every Indian"
 
 **Content**:
 - 🎤 **Voice-First**: Speak in Hindi, Tamil, Telugu - get code
@@ -37,7 +37,7 @@
 
 **Demo Screenshot**: Show mobile app with Hindi interface
 
-**Speaker Notes**: "We built Luma-CLI to break these barriers. Speak your native language, work from anywhere, and let AWS AI handle the heavy lifting."
+**Speaker Notes**: "We built Nano CLI to break these barriers. Speak your native language, work from anywhere, and let AWS AI handle the heavy lifting."
 
 ### Slide 3: Live Demo (90 seconds)
 

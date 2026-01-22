@@ -41,7 +41,7 @@ export async function infoCommand() {
         console.log(chalk.gray('   Authentication: Password required'));
     } else {
         console.log(chalk.gray('\n\ud83c\udf0d Web Connection: Not active'));
-        console.log(chalk.gray('   Run `luma-cli start --web` to enable'));
+        console.log(chalk.gray('   Run `nano-cli start --web` to enable'));
     }
 
     console.log(chalk.gray('\n' + '='.repeat(50)));

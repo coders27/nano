@@ -1,5 +1,5 @@
 /**
- * Hashing utilities for Luma-CLI
+ * Hashing utilities for Nano CLI
  */
 
 /**

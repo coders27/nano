@@ -10,8 +10,8 @@
 ### Step 1: Clone & Install (2 minutes)
 
 ```bash
-git clone https://github.com/coders27/luma-cli2.git
-cd luma-cli2
+git clone https://github.com/coders27/Nano CLI2.git
+cd Nano CLI2
 npm install
 ```
 
@@ -27,12 +27,12 @@ npm install
    AWS_ACCESS_KEY_ID=your_key_here
    AWS_SECRET_ACCESS_KEY=your_secret_here
    AWS_REGION=ap-south-1
-   AWS_S3_BUCKET=luma-cli-audio
+   AWS_S3_BUCKET=Nano CLI-audio
    ```
 
 3. **Create S3 bucket** (if not exists):
    ```bash
-   aws s3 mb s3://luma-cli-audio --region ap-south-1
+   aws s3 mb s3://Nano CLI-audio --region ap-south-1
    ```
 
 ### Step 3: Start Server (1 minute)
@@ -43,7 +43,7 @@ npm start -- --auto-launch
 
 This will:
 - Launch Antigravity IDE with debug mode
-- Start Luma server
+- Start Nano Server
 - Display QR code for mobile connection
 
 ## Testing AWS Features
@@ -171,7 +171,7 @@ aws sts get-caller-identity
 ### Issue: S3 Bucket Not Found
 **Solution**: Create bucket
 ```bash
-aws s3 mb s3://luma-cli-audio --region ap-south-1
+aws s3 mb s3://Nano CLI-audio --region ap-south-1
 ```
 
 ### Issue: Mobile App Can't Connect
@@ -183,7 +183,7 @@ aws s3 mb s3://luma-cli-audio --region ap-south-1
 ## Quick Demo Script
 
 **Opening** (15 sec):
-"Hi, I'm [name]. We built Luma-CLI to help Indian developers code in their native language using AWS AI."
+"Hi, I'm [name]. We built Nano CLI to help Indian developers code in their native language using AWS AI."
 
 **Problem** (30 sec):
 "70% of Indian developers face barriers - English-only tools, poor connectivity, no AI access. We're solving this."

@@ -1,5 +1,5 @@
 /**
- * Default configuration values for Luma-CLI
+ * Default configuration values for Nano CLI
  */
 
 export const DEFAULTS = {

@@ -1,5 +1,5 @@
 /**
- * Utils module exports for Luma-CLI
+ * Utils module exports for Nano CLI
  */
 
 export { getLocalIP, getAllLocalIPs, isLocalRequest } from './network.js';
