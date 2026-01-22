@@ -10,6 +10,11 @@ import { createWorkspaceRouter } from './workspace.js';
 import aiRouter from './ai.js';
 import voiceRouter from './voice.js';
 import translateRouter from './translate.js';
+import ttsRouter from './tts.js';
+import analysisRouter from './analysis.js';
+import ocrRouter from './ocr.js';
+import collaborationRouter from './collaboration.js';
+import learningRouter from './learning.js';
 
 /**
  * Register all routes on an Express app
@@ -40,6 +45,13 @@ export function registerRoutes(app, options = {}) {
     app.use('/ai', aiRouter);
     app.use('/voice', voiceRouter);
     app.use('/translate', translateRouter);
+    app.use('/tts', ttsRouter);
+    app.use('/analysis', analysisRouter);
+    app.use('/ocr', ocrRouter);
+    
+    // Feature routes
+    app.use('/collaboration', collaborationRouter);
+    app.use('/learning', learningRouter);
 }
 
 export {
