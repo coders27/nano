@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "Luma",
-    "slug": "luma-mobile",
+    "name": "Nano",
+    "slug": "nano-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "scheme": "luma",
+    "scheme": "nano",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -15,22 +15,31 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.luma.mobile"
+      "bundleIdentifier": "com.nano.mobile"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1a1a2e"
       },
-      "package": "com.luma.mobile"
+      "package": "com.nano.mobile",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": ["expo-router"],
-    "experiments": {
-      "typedRoutes": true
-    }
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Nano to access your camera for QR code scanning"
+        }
+      ]
+    ]
   }
 }
